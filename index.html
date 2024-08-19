@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MyFurBaby</h1>
+    <section>
+        <h2>My Pet's Photos</h2>
+        <p>See more <a href="./assets/index.html">photos of my fur baby.</a></p>
+        <a href="./assets/index.html"><img src="./assets/photo-of-pets.png" alt="Images of cat and dogs" height="300px"/></a>
+    </section>
+
+    <section>
+        <h2>Pet Lists</h2>
+        <h3>The things my Pets Love:</h3>
+        <ul>
+            <li>Stuff Toy</li>
+            <li>Chicken</li>
+            <li>New fabric</li>
+        </ul>
+        <figure>
+            <img src="./assets/stuffedtoy.jpg" alt="An Image of four stuffed toy." height="300px"/>
+            <figcaption>My baby <em>love</em> stuffed toys.</figcaption>
+        </figure>
+        <h3>Top 3 things my pets hate:</h3>
+        <ol>
+            <li>Ear and nail cleaning</li>
+            <li>Hot weather</li>
+            <li>other cats</li>
+          </ol>
+        <figure>
+            <img src="./assets/three-cats.jpg" alt="three cats." height="200px"/>
+            <figcaption>My pets <strong>hate</strong> other cats.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Fur Babies Form</h2>
+        <form action="./submitted/"></form>
+
+        <fieldset>
+            <legend>Does your pet prefer spending time indoors or outdoors?</legend>
+            <label><input checked id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your pet's personality?</legend>
+            <input checked id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+        </fieldset>
+        
+        
+        <input type="text" name="petsphotourl" placeholder="pet's photo URL" required />
+        <button type="submit">Submit</button>
+        
+    </section>
+</body>
+</html>
